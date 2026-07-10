@@ -15,7 +15,7 @@ permalink: /cv/
 
 〔在这里写你的研究领域，例如：中国近现代史、经济思想史……〕
 
-## 联系
+## 联系方式
 
 - Email：[fanmaiwuliao@126.com](mailto:your@email.com)
 
