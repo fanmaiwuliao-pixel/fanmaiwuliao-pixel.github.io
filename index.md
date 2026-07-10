@@ -4,7 +4,7 @@ title: 引得
 ---
 # 引得
 
-**你的名字（Your Name）**，〔在这里写一两句自我介绍：学历、现任职务、研究方向。例如：××大学历史学系博士，现任××大学××学院副教授，研究方向为……〕
+**贩卖无聊（fanmaiwuliao）**，〔在这里写一两句自我介绍：〕
 
 ---
 
@@ -20,5 +20,5 @@ title: 引得
 - {{ post.date | date: "%Y 年 %-m 月 %-d 日" }} [{{ post.title }}]({{ post.url | relative_url }})
 
   {{ post.excerpt | strip_html | truncate: 100 }}
--  {% endfor %}
+- {% endfor %}
 
