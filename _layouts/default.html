@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <p class="site-subtitle">{{ site.subtitle }}</p>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">引得</a>
+      <a href="{{ '/cv/' | relative_url }}">学术简历</a>
+      <a href="{{ '/blog/' | relative_url }}">所有文章</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap content">
+{{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© {{ 'now' | date: "%Y" }} {{ site.author }} · 本站由 <a href="https://pages.github.com">GitHub Pages</a> 托管</p>
+  </div>
+</footer>
+</body>
+</html>
