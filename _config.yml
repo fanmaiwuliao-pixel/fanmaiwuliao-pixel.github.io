@@ -1,27 +1,7 @@
-# ===== 网站基本信息（改成你自己的）=====
-title: 我的教学与研究          # 网站名称
-subtitle: Name@University      # 副标题
+title: 贩卖无聊的网站
+subtitle: fanmaiwuliao-pixel.github.io
+author: 贩卖无聊
+email: fanmaiwuliao@126.com
 description: 个人学术网站：简历、论著与日记
-author: 你的名字
-email: liaowumaifan@gmail.com
-
-# 如果网站部署在 https://用户名.github.io/仓库名/，
-# baseurl 填 "/仓库名"；如果部署在 https://用户名.github.io/，填 ""
-baseurl: ""
-url: ""
-
-# ===== 以下一般不用改 =====
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-paginate: 10
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-
-exclude:
-  - README.md
-  - 使用指南.md
